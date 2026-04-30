@@ -158,6 +158,29 @@
       box-shadow: 3px 3px 0 #2a2118;
     }
 
+    /* CTA button: based on .note but behaves like a button */
+    .cta-button {
+      width: fit-content;
+      margin-top: 18px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1rem;
+      font-weight: 800;
+      color: #2a2118;
+      background: #f7df74;
+      border: 2px solid #2a2118;
+      border-radius: 999px;
+      padding: 14px 18px;
+      transform: rotate(1deg);
+      box-shadow: 4px 4px 0 #2a2118;
+      cursor: pointer;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+
+    .cta-button:hover {
+      transform: translate(2px, 2px) rotate(0deg);
+      box-shadow: 2px 2px 0 #2a2118;
+    }
+
     footer {
       max-width: 420px;
       font-family: Arial, Helvetica, sans-serif;

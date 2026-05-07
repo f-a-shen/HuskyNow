@@ -1,0 +1,15 @@
+# Ignore dev logs
+dev-log-*.md
+
+# Node
+node_modules/
+
+# Vite
+dist/
+
+# Env
+.env
+.env.*
+
+# OS
+.DS_Store
